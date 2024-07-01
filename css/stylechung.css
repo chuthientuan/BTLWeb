@@ -1,0 +1,644 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chiacot {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    column-gap: 20px;
+ 
+}
+@media (min-width: 768px){
+    .chiacot{
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.chiacotphai {
+    margin-top: 2%;
+    display: flex;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+}
+
+.chiacotphai {
+    margin-top: 2%;
+    display: flex;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+}
+.cot {
+    flex-basis: 33.33%;
+    
+    box-sizing: border-box;
+}
+h3.bainoibat
+{   
+    color: #0072BC;
+    height:50px ;
+    width: 70%;
+    margin-left: 3%;
+}
+p.tomtat
+{   
+   width: 95%;
+}
+/* */
+/* Header */
+
+#header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 4.375rem;
+    background-color: #0072bc;
+    z-index: 1;
+}
+
+#header > a {
+    float: left;
+    padding: 0.9375rem 0.9375rem;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+}
+
+a .header-img {
+    width: 10rem;
+    cursor: pointer;
+    display: block;
+}
+
+
+#nav, .subnav {
+    list-style-type: none;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li a {
+    line-height: 4.375rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 0.5rem;
+    display: block;
+}
+
+#nav > li > a:hover {
+    opacity: 0.5;
+}
+
+#nav .subnav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    min-width: 12.5rem;
+    background-color: #fff;
+    box-shadow: 0 0 0.625rem #e7e3e3;
+    border-radius: 0.625rem;
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 0.75rem;
+    line-height: 2.375rem;
+}
+
+#nav .subnav li:hover a {
+    background-color: #026ae3;
+    color: #fff;
+    border-radius: 0.625rem;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .nav-menu,
+#nav .nav-arrow-down {
+    font-size: 0.875rem;
+}
+
+.right {
+    float: right;
+}
+
+#header .cart {
+    width: 8.75rem;
+    height: 3.125rem;
+    margin-top: 0.625rem;
+    background-color: rgb(50 145 208);
+    color: #fff;
+    border: none;
+    border-radius: 0.625rem;
+    cursor: pointer;
+}
+
+#header .cart .cart-bt {
+    padding-left: 1.25rem;
+}
+
+#header .register,
+#header .login {
+    font-size: 0.75rem;
+    display: inline-block;
+    line-height: 4.375rem;
+    padding-right: 1rem;
+}
+#header .register {
+    padding-left: 0.625rem;
+}
+
+#header .register .btn-register,
+#header .login .btn-login {
+    background-color: #0072bc;
+    color: #fff;
+    border: none;
+}
+
+#header .register .btn-register:hover,
+#header .login .btn-login:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+/*Pages*/
+.tieude{
+    margin-left: 90px;
+
+}
+.page{
+    display: flex;
+    margin-top: -5%;
+    margin-bottom: 9%;
+}
+.trai
+{
+    box-sizing: border-box;
+    width: 65%;
+    height: 96%;
+    margin-left: 8%;
+   border-style: ridge ;
+   border-bottom-style:none;
+   border-left-style:none;
+   border-top-style:none;
+    border-width:thin;
+    margin-top: 5%;
+}
+.phai{
+    box-sizing: border-box;
+    width: 35%;
+    margin-top: 5%;
+}
+.dauchuyen
+{
+   
+}
+.l2{
+    display: inline-block;
+    width: 7%;
+    height:2%;
+
+}
+.l0{
+    
+    display: inline-block;
+
+    text-align: center;
+    width: 9%;
+    height:2%;
+
+   
+}
+.l1{
+    
+    display: inline-block;
+    margin-left: 2.4%;
+    text-align: center;
+    width: 6%;
+    height:2%;
+
+    
+}
+.anh
+{
+    style="font-size: 17px;"
+}
+.anh1{
+    width: 70%;
+    height: 9%;
+}
+.change{
+    padding: 10px 0px 10px 10px;
+    text-align: center;
+    width: 47%;
+    height:2%;
+    border-style: groove;
+    border-left-style:none;
+    border-right-style: ridge ;
+    border-width:thin;
+}
+.change1{
+    padding: 10px 0px 10px 10px;
+    text-align: center; 
+    width: 47%;
+    height:2%;
+    border-style: groove;
+    border-right-style:none;
+    border-width:thin;
+
+}
+.gancuoi1{
+    display: block;
+    width: 295px;
+    height:250px;
+    
+    
+}
+.gancuoi{
+    display: block;
+    width: 295px;
+    height:250px;
+   
+    margin-left: 4%;
+}
+.benphai{
+    font-size:25px ; 
+    color: grey;
+    margin-left:5%;
+}
+.anhbenphai{
+    background-color: white;
+    box-sizing: border-box;
+    border-top-style: none;
+    border-left-style:none;
+    border-right-style:none;
+    border-bottom-style: ridge ;
+    border-width:2px;
+    margin-left: 5%;
+    width: 70%;
+    height: 150px;
+}
+.anhbenphai1{
+    background-color: white;
+    box-sizing: border-box;
+   border-style: none ;
+    border-width:2px;
+    margin-left: 5%;
+    width: 70%;
+    height: 100px;
+}
+.chinhsua{
+    display: flex   ;
+}
+a{
+    color: black;text-decoration: none;
+}
+a:hover {
+    color:rgba(100, 118, 20, 0.801);
+    color: #0072BC;
+   
+  }
+a:active {
+    color: rgba(123, 0, 255, 0.895);
+} 
+.n{
+    background-color: white;
+    box-sizing: border-box;
+    border-top-style: none;
+    border-left-style:none;
+    border-right-style:none;
+    border-bottom-style: none ;
+    border-width:2px;
+    margin-left: 5%;
+    width: 70%;
+    height: 2%;
+}
+/* Footer */
+#footer {
+    background-color: #e7e7e7;
+    min-height: 18.75rem;
+    padding-bottom: 3.125rem;
+}
+
+.socials-list {
+    padding-top: 1.875rem;
+    padding-bottom: 1.25rem;
+}
+
+.nav-footer .footer-h {
+    font-weight: 600;
+    color: #6a6161;
+}
+
+.nav-footer li {
+    list-style: none;
+    padding-top: 1.25rem;
+}
+
+.nav-footer  i a {
+    text-decoration: none;
+    color: #5f5252;
+}
+
+.footer-end {
+    text-align: center;
+    line-height: 1.4;
+    color: #5f5252;
+}
+.row {
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+.col-four {
+    float: left;
+    width: 25%
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/*nháp*/
+
+/* Root-chat */
+#root {
+    height: 1.875rem;
+    width: 24.375rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.root-container {
+    height: 100%;
+    color: #fff;
+    background-color: rgb(27, 116, 231);
+    position: relative;
+    padding-left: 1.875rem;
+    padding-right: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.625rem 0.625rem 0.25rem 0.25rem;
+}
+
+.chat-item {
+    position: absolute;
+    top: 0.3125rem;
+    left: 0.3125rem;
+}
+
+.chat-comment {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+}
+
+.muibox-root {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.muity-root {
+    line-height: 1.5;
+    font-size: 1rem;
+    font-family: "Open Sans";
+}
+
+/* Modal chat */
+.modal-root {
+    display: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.modal-root-container {
+    position: relative;
+    width: 24.375rem;
+    box-shadow: 0 0 0.625rem #e7e3e3;
+    animation: modalchatFadeIn ease 0.5s;
+}
+
+.modal-root.open {
+    display: flex;
+}
+
+.modal-root-close {
+    position: absolute;
+    top: 1.0625rem;
+    right: 0.75rem;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+
+.modal-root-close:hover {
+    opacity: 0.5;
+}
+
+header.modal-root-header {
+    background-color: rgb(27, 116, 231);
+    height: 3.125rem;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Open Sans";
+    line-height: 3.125rem;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+}
+
+.modal-root-body {
+    padding: 1rem 1rem 6.5625rem;
+    background-color: #fff;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.modal-infor {
+    font-size: 1rem;
+    font-family: "Open Sans";
+}
+
+.modal-chat {
+    display: flex;
+    margin: 0.25rem 0;
+    flex-direction: column;
+}
+
+.form-infor {
+    width: 100%;
+    padding: 0.53125rem 0.875rem;
+    margin: 0.25rem 0;
+    outline:#026ae3;
+}
+
+.modal-select select{
+    padding: 0.53125rem 0.875rem;
+    width: 100%;
+    outline:#026ae3;
+}
+
+.modal-select {
+    padding-bottom: 1.125rem;
+}
+
+.modal-message {
+    
+}
+
+.form-message {
+    height: 5rem;
+    padding: 1.03125rem 0.875rem;
+    width: 100%;
+    outline:#026ae3;
+}
+
+.start {
+    position: absolute;
+    bottom: 8%;
+    left: 30%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 116, 231);
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    border: none;
+    border-radius: 1.25rem;
+}
+
+/* Tạo hiệu ứng modal chat */
+@keyframes modalchatFadeIn {
+    from {
+        transform: translateY(6.25rem);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Modal register */
+.modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(1 47 98 / 40%);
+}
+
+.modal.open  {
+    display: flex;
+}
+
+.modal-container {
+    width: 22.25rem;
+    min-height: 12.5rem;
+    background-color: #fff;
+    position: relative;
+    padding: 1.5rem 2rem;
+    border-radius: 0.625rem;
+}
+
+.modal-close {
+    position: absolute;
+    top: 1.875rem;
+    right: 1.5rem;
+}
+
+.modal-close:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.modal-register-header {
+    text-align: center;
+    padding-bottom: 0.625rem;
+}
+
+.modal-acc {
+    border-bottom: 1px solid #ccc;
+    font-size: 1.5rem;
+    padding-top: 0.75rem;
+}
+
+.modal-input {
+    width: 87%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.modal-accept {
+    font-size: 0.75rem;
+    padding-top: 0.625rem;
+    padding-bottom: 1.125rem;
+}
+
+.modal-accept a {
+    text-decoration: none;
+}
+
+.modal-accept .accept-1 {
+    color: #000;
+}
+.modal-accept .accept-2 {
+    color: blue;
+}
+
+.btn-rgt {
+    width: 100%;
+    height: 3.5rem;
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    border-radius: 0.625rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.modal-or {
+    text-align: center;
+    padding: 0.75rem 0;
+}
+
+.modal-btn-next,
+.modal-btn-next-g {
+    width: 100%;
+    height: 3.125rem;
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 1.125rem;
+}
+.modal-btn-next-g {
+    margin-top: 0.625rem;
+}
+
+.modal-footer a {
+    color: #026ae3;
+    text-decoration: none;
+}
+
+.modal-help {
+    text-align: center;
+    font-size: 0.875rem;
+    padding-top: 1.25rem;
+}
